@@ -1,3 +1,16 @@
 {
-  "favorites": []
+  "favorites": [
+    {
+      "id": "1718648310836",
+      "name": "bengaluru"
+    },
+    {
+      "id": "1718805206762",
+      "name": "Kolkata"
+    },
+    {
+      "id": "1718805526329",
+      "name": "brahmapur"
+    }
+  ]
 }

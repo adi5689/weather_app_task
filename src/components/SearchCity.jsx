@@ -5,7 +5,7 @@ const SearchCity = ({ onSearch }) => {
 
   const handleSearch = () => {
     onSearch(city);
-    setCity(''); // Optionally clear the input after search
+    setCity(''); 
   };
 
   return (
@@ -16,7 +16,7 @@ const SearchCity = ({ onSearch }) => {
           value={city}
           onChange={(e) => setCity(e.target.value)}
           placeholder="Enter city name"
-          className="border rounded p-2 mr-2"
+          className="border rounded p-2 mr-2 text-black"
         />
         <button onClick={handleSearch} className="bg-blue-500 text-white p-2 rounded">Search</button>
       </div>
